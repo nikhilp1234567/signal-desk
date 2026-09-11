@@ -1,0 +1,12 @@
+.env
+data/*.sqlite
+data/*.sqlite-shm
+data/*.sqlite-wal
+data/secrets.json
+data/secrets.json.tmp
+data/signal-desk.json
+data/signal-desk.json.tmp
+dist/
+node_modules/
+.tsbuild/
+*.tsbuildinfo
