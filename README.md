@@ -221,16 +221,3 @@ npm run build
 ```
 
 The test suite covers API behavior, provider response normalization, fallback ranking, credential handling, persistence snapshots, and bounded AI batching.
-
-## Current Scope
-
-Signal Desk is a functional local prototype, with several intentional boundaries:
-
-- Public LinkedIn post searches are the supported source type in the current UI.
-- The content workspace is an editor for saved ideas and drafts, not a complete AI publishing system.
-- Collection jobs and scheduling run inside the server process rather than a durable job queue.
-- Schedule changes require a backend restart.
-- The Apify charge cap applies per source invocation, not across an entire collection run.
-- There is no hosted deployment, user authentication, browser end-to-end suite, or LinkedIn publishing integration.
-
-These constraints keep the application focused on research, drafting, and manual review rather than autonomous social engagement.
